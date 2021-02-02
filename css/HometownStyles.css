@@ -6,7 +6,6 @@ footer {
   background-color: #1f1f1f;
   margin: 0;
   color: whitesmoke;
-  padding: 20px;
 }
 
 h1 {
@@ -126,11 +125,45 @@ h1 {
       margin: auto;
       color: whitesmoke;
     }
-
+/*
     .footer-all li{
       display: inline;
-      margin: 10px;;
-      padding: 0;
+      float:left;
+      margin: 10px;
+    }
+
+    .footer-all a{
+      display: block;
+    }
+
+    .footer-all {
+      background-color: #1f1f1f;
+      height: 100%;
+      width: 100%;
+    }
+*/
+    .footer-all ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+
+    .footer-all li {
+      float: left;
+    }
+
+    .footer-all li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .footer-all a:hover {
+      color:
     }
 
     .pin {
