@@ -125,23 +125,7 @@ h1 {
       margin: auto;
       color: whitesmoke;
     }
-/*
-    .footer-all li{
-      display: inline;
-      float:left;
-      margin: 10px;
-    }
 
-    .footer-all a{
-      display: block;
-    }
-
-    .footer-all {
-      background-color: #1f1f1f;
-      height: 100%;
-      width: 100%;
-    }
-*/
     .footer-all ul {
     list-style-type: none;
     margin: 0;
